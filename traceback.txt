@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 143, in script
+    "Bars must exceed the bond strength of plain round bars of the same size by at least 40% and 80%, respectively."
+TypeError: not enough arguments for format string
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 143, in script
+    "Bars must exceed the bond strength of plain round bars of the same size by at least 40% and 80%, respectively."
+  File "D:\renpy-8.3.3-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.3-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.3-sdk\renpy\exports\sayexports.py", line 121, in say
+    what = what % tag_quoting_dict
+TypeError: not enough arguments for format string
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.3.24111502
+The School of Trust 1.0
+Wed Feb  5 01:34:28 2025
